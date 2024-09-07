@@ -23,18 +23,18 @@ This project is the backend system for testing and monitoring the quality of med
 Before running the project, ensure you have the following installed:
 - **Node.js** (version 12+)
 - **MongoDB** (running locally or using MongoDB Atlas)
-- **Github Desktop**- the desktop app must be running lcally on your machine so thhat it is easy to commit changes from your code editor.
+- **Github Desktop**- the desktop app must be running locally on your machine so thhat it is easy to commit changes from your code editor.
 
   ## Files Information
 
   ### Supply.js
 
   - it contains all the input schema required to enter data inside the mongodb database .
-  - it require sthe mongoose library
+  - it requires the mongoose library
  
     ### supplies.js
 
-    -it contains al; the routes an dquality check functions .
+    -it contains al the routes and performs quality check functions .
 
     ### db.js
 
@@ -42,5 +42,5 @@ Before running the project, ensure you have the following installed:
 
       ### server.js
 
-      -it imports all he exported files
-      - it express app is started here 
+      -it imports all he exported files 
+      - the express app is started here 
